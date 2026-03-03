@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 42485831-7f00-4cab-89fb-d2158d3e523f
+  title: "Stack ELK desde 0: Guía práctica con Docker"
+  # description:
+  # keywords: []
+  authors: Fabián Reyes
+  # github:
+  toc:
+    - file: index.md
+    - file: 01.ipynb
+    - file: 02.ipynb
+      children:
+      - file: 021.ipynb
+    - file: 03.ipynb
+      children:
+      - file: 031.ipynb
+
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
